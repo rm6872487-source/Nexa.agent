@@ -1,0 +1,4 @@
+{
+  "image": "archlinux:latest",
+  "postCreateCommand": "pacman -Syu --noconfirm && pacman -S --noconfirm base-devel git curl"
+}
